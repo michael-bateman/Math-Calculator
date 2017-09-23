@@ -24,6 +24,8 @@ public class Calculator {
 		double radius = 0;
 		double area = 0;
 		
+		//Pythagorean Theorem Calculator
+		
 		System.out.println("Pythagorean Theorem Calculator\n------------------------------\nFormula Used:\na*a + b*b = c*c\nAll numbers are automatically rounded to the nearest hundredth");
 		
 		System.out.print("What side are you missing? (a, b or c) ");
@@ -60,6 +62,8 @@ public class Calculator {
 			System.out.println("Error... Invalid side");
 		} 
 		
+		//Mod Simplifier
+		
 		System.out.println("Mod Simplifier\n--------------\nThis calculator simplifies modular numbers");
 		
 		System.out.print("What is the number? ");
@@ -77,6 +81,8 @@ public class Calculator {
 		}
 		
 		System.out.println(modNumber);
+		
+		// Volume of a Sphere Calculator
 		
 		System.out.println("Volume of a Sphere Calculator\n----------------------------\nFormula:\nA = 4/3 * 104348/33215 * (r * r)\nAll numbers are automatically rounded to the nearest hundredth");
 		
