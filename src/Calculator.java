@@ -84,12 +84,12 @@ public class Calculator {
 		
 		// Volume of a Sphere Calculator
 		
-		System.out.println("Volume of a Sphere Calculator\n----------------------------\nFormula:\nA = 4/3 * 104348/33215 * (r * r)\nAll numbers are automatically rounded to the nearest hundredth");
+		System.out.println("Volume of a Sphere Calculator\n----------------------------\nFormula:\nA = PI * 4/3 * (r * r)\nAll numbers are automatically rounded to the nearest hundredth");
 		
 		System.out.print("What is the radius of the sphere? ");
 		radius = s.nextDouble();
 		
-		area = (4.0/3)*(104348.0/33215)*(radius*radius);
+		area = Math.PI*(4.0/3)*(radius*radius);
 		
 		area = Math.round(area*100.00)/100.00;
 		
